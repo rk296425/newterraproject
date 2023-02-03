@@ -1,10 +1,10 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIATTAU7W3MTSH2GAUR"
-  secret_key = "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"
+  access_key = "AKIA4GWUPVKZKDVJIBGV"
+  secret_key = "SslzCuh39oMpS+aAnGT6wgX6Me73ORpSsIMDmggA"
 }
 resource "aws_instance" "example" {
-  ami           = "ami-0b5eea76982371e91"
+  ami           = "ami-01a4f99c4ac11b03c"
   instance_type = "t2.micro"
   key_name = "rahamkeys"
   availabilty_zone = "us-east-1d"
