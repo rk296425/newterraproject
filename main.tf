@@ -6,7 +6,7 @@ provider "aws" {
 resource "aws_instance" "example" {
   ami           = "ami-0aa7d40eeae50c9a9"
   instance_type = "t2.micro"
-  key_name = "rkall"
+  key_name = "rk"
   availability_zone = "us-east-1d"
   tags= {
     Name = "raham-tf"
