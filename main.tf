@@ -4,7 +4,7 @@ provider "aws" {
   secret_key = "SslzCuh39oMpS+aAnGT6wgX6Me73ORpSsIMDmggA"
 }
 resource "aws_instance" "example" {
-  ami           = "ami-01a4f99c4ac11b03c"
+  ami           = "ami-0aa7d40eeae50c9a9"
   instance_type = "t2.micro"
   key_name = "rkall"
   availability_zone = "us-east-1d"
